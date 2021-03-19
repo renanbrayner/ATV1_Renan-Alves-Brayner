@@ -27,7 +27,7 @@ public class Author {
 
 	public String toString() {
 		return "author name: " + this.name +
-			";\nauthor email: " + this.email +
-			";\nauthor gender: " + this.gender + "; \n";
+			"\nauthor email: " + this.email +
+			"\nauthor gender: " + this.gender + "\n";
 	}
 }

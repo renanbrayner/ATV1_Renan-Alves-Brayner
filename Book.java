@@ -39,8 +39,8 @@ public class Book {
 		String authorInfo = this.author.toString();
 		return "------------------\n" +
 			"title: " + this.name +
-			";\nprice: " + this.price +
-			";\navailable in stock: " + this.qtyInStock + "; \n" +
+			"\nprice: " + this.price +
+			"\navailable in stock: " + this.qtyInStock + " \n" +
 			authorInfo;
 	}
 }
