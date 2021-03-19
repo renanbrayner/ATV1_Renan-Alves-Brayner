@@ -40,7 +40,7 @@ public class Book {
 		return "------------------\n" +
 			"title: " + this.name +
 			";\nprice: " + this.price +
-			";\navailable in stock: " + this.qtyInStock + "; \n" +
+			";\navailable in stock: " + this.qtyInStock + "\n" +
 			authorInfo;
 	}
 }
